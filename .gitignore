@@ -1,0 +1,10 @@
+# クライアントがローカルで生成する成果物
+# git pull 時に競合しないよう除外
+TASKLIST.md
+requirements.md
+
+# OS
+.DS_Store
+
+# Cursor
+.cursor/plans/
