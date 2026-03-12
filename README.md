@@ -13,18 +13,17 @@ AIと会話するだけで、プロジェクトの立ち上げを進められる
 
 ### 2. このリポジトリをダウンロード
 
-1. Cursor を開く
-2. 上部メニューから「ターミナル → 新しいターミナル」を選択
-3. 表示されたターミナル（黒い画面）に、以下をそのままコピー＆ペースト:
+1. Cursor で好きなフォルダを開いた状態で、上部メニューから「ターミナル → 新しいターミナル」を選択
+2. 表示されたターミナル（黒い画面）に、以下をそのままコピー＆ペースト:
 
 ```
-cd ~/Desktop && git clone https://github.com/GitSATOMasashi/ai-consul-kit.git
+git clone https://github.com/GitSATOMasashi/ai-consul-kit.git
 ```
 
 ### 3. Cursor でフォルダを開く
 
 1. Cursor のメニューから「ファイル → フォルダーを開く」
-2. デスクトップにある `ai-consul-kit` フォルダを選択
+2. 今いるフォルダの中にできた `ai-consul-kit` フォルダを選択
 
 ### 4. AI に話しかける
 
