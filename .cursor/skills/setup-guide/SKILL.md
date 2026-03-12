@@ -12,7 +12,7 @@ description: 環境セットアップとCursorの基本操作ガイド。Git/Git
 ## 前提
 
 - クライアントは Cursor でこのリポジトリを開いた状態
-- README の setup.sh による初回セットアップは完了済みの想定
+- README のステップバイステップ手順による初回セットアップは完了済みの想定
 - このスキルは対話形式で進める。一度に全部説明せず、ステップごとに確認を挟む
 
 ## 手順
@@ -41,10 +41,11 @@ gh auth setup-git
 「ブラウザが開くのでGitHubにログインしてください」と案内する。
 
 **gh コマンドが見つからない場合:**
-setup.sh を再実行してもらう:
+Homebrew で GitHub CLI をインストールしてもらう:
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/GitSATOMasashi/ai-consul-kit/main/setup.sh)"
+brew install gh
 ```
+Homebrew 自体が入っていない場合は、README のステップ 4 から再実行するよう案内する。
 
 問題が解決したら Step 1 に進む。問題がなければ Step 0 はスキップ。
 
@@ -94,4 +95,4 @@ setup.sh を再実行してもらう:
 
 - 既に日本語化済み・設定済みの場合はスキップして Step 2 に進む
 - クライアントが操作に迷ったら「画面のスクリーンショットを送ってください」と案内する
-- 環境トラブルで詰まった場合は、setup.sh の再実行を最初に試す
+- 環境トラブルで詰まった場合は、README のセットアップ手順を最初から再実行するよう案内する
