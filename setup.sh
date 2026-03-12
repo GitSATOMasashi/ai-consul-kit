@@ -27,6 +27,9 @@ fi
 # --- Homebrew ---
 if ! command -v brew &>/dev/null; then
   echo "[2/5] Homebrew をインストールしています..."
+  echo "      途中でパスワードを求められたら、Mac のログインパスワードを入力してください。"
+  echo "      （セキュリティのため、入力しても文字は表示されませんが、入力されています）"
+  echo ""
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   # Apple Silicon Mac の場合、PATH を通す
