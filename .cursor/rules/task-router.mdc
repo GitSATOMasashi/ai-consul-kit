@@ -43,7 +43,9 @@ alwaysApply: true
 | タスクに含まれるキーワード | 発動するスキル |
 |---|---|
 | セットアップ、環境構築、Cursor導入 | `.cursor/skills/setup-guide/SKILL.md` |
+| ユーザー体験、UX、使い方の流れ、行動フロー | `.cursor/skills/ux-design/SKILL.md` |
 | 要件定義、要件、仕様 | `.cursor/skills/requirements/SKILL.md` |
+| FAQ、よくある質問、ナレッジ、つまずきポイント、回答テンプレート | `.cursor/skills/knowledge-catalog/SKILL.md` |
 
 上記に該当しないタスクの場合は、タスクの内容をクライアントに説明し、対話しながら進める。
 
